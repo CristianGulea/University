@@ -1,0 +1,11 @@
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\bin\Debug\SGBDL1.exe.config
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\bin\Debug\SGBDL1.exe
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\bin\Debug\SGBDL1.pdb
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.csproj.AssemblyReference.cache
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.csproj.SuggestedBindingRedirects.cache
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.Form1.resources
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.Properties.Resources.resources
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.csproj.GenerateResource.cache
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.csproj.CoreCompileInputs.cache
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.exe
+C:\Users\gulea\source\repos\SGBDL1\SGBDL1\obj\Debug\SGBDL1.pdb

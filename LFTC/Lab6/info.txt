@@ -1,0 +1,1 @@
+Translator pentru un limbaj minimal folosind LEX/FLEX si YACC/BISON. Translatorul primeste cod sursa (pascal) si va genera codul ASM 80x86.
