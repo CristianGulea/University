@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UpdateProductController">
+   <children>
+      <Label layoutX="25.0" layoutY="40.0" text="ID">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="103.0" text="Name">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="168.0" text="Quantity">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="238.0" text="PricePerUnit">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idTextFieldUpdateW" disable="true" layoutX="38.0" layoutY="60.0" prefHeight="25.0" prefWidth="219.0" />
+      <TextField fx:id="nameTextFieldUpdateW" layoutX="38.0" layoutY="123.0" prefHeight="25.0" prefWidth="219.0" />
+      <TextField fx:id="quantityTextFieldUpdateW" layoutX="38.0" layoutY="187.0" prefHeight="25.0" prefWidth="219.0" />
+      <TextField fx:id="pricePerUnitTextFieldUpdateW" layoutX="38.0" layoutY="258.0" prefHeight="25.0" prefWidth="219.0" />
+      <Button fx:id="updateButtonUpdateW" layoutX="122.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#handleUpdateButton" text="Update">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableUpdateW" layoutX="336.0" layoutY="4.0" onMouseClicked="#selectItem" prefHeight="391.0" prefWidth="237.0" />
+   </children>
+</AnchorPane>

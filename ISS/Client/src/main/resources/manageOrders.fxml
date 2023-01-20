@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManageOrderController">
+   <children>
+      <Label layoutX="48.0" layoutY="63.0" text="Consult Catalog">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="475.0" layoutY="53.0" text="Manage orders">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="-92.99996948242188" endY="348.6666564941406" layoutX="392.0" layoutY="74.0" startX="-93.0" startY="23.33332061767578" />
+      <TableView fx:id="tableManageOrdersMOW" layoutX="346.0" layoutY="97.0" onMouseClicked="#setRadioButton" prefHeight="196.0" prefWidth="299.0" />
+      <RadioButton fx:id="radioButtonPending" layoutX="386.0" layoutY="307.0" mnemonicParsing="false" text="Pending">
+         <toggleGroup>
+            <ToggleGroup fx:id="statusOrders" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="radioButtonDelivered" layoutX="538.0" layoutY="307.0" mnemonicParsing="false" text="Delivered" toggleGroup="$statusOrders" />
+      <TableView fx:id="tableConsultCatalogMOW" layoutX="41.0" layoutY="101.0" prefHeight="311.0" prefWidth="235.0" />
+      <Line endX="564.3333129882812" endY="3.0517578125E-5" layoutX="115.0" layoutY="423.0" startX="-100.0" />
+      <Button fx:id="takeNewOrderButtonMOW" layoutX="14.0" layoutY="447.0" mnemonicParsing="false" onMouseClicked="#handleTakeNewOrderButtonMOW" prefHeight="34.0" prefWidth="666.0" text="Take new order">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="deliverButton" layoutX="463.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#handlerDeliverButton" text="Deliver">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Torder"
+           table="torder">
+        <id name="id" type="int" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="comments" type="java.lang.String" column="comments"/>
+        <property name="status" type="java.lang.String" column="status"/>
+        <property name="price" type="java.lang.Integer" column="price"/>
+        <property name="companyId" type="java.lang.Integer" column="companyId"/>
+        <property name="productId" type="java.lang.Integer" column="productId"/>
+        <property name="quantity" type="java.lang.Integer" column="quantity"/>
+    </class>
+</hibernate-mapping>
