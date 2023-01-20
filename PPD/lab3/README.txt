@@ -1,0 +1,1 @@
+Scrieti un program bazat pe MPI care face suma a 2 numere mari

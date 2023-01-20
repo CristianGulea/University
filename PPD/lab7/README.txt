@@ -1,0 +1,1 @@
+Aplicarea unui filtru rosu folosind CUDA.
